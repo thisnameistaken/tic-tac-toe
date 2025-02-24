@@ -35,3 +35,16 @@ This is a full-stack Tic-Tac-Toe game with a **Flask backend**, a **React fronte
 3. **Run Frontend**
    ```sh
    npm start
+
+## API Endpoints
+### /create_game
+Creates a new game with a blank board. Returns the game ID, game board, current turn (X), and the game status (ongoing).
+
+### /update_game/game_id/placement
+Updates a game with the current active marker. Placement should be an int from 0-8 and game_id should be the id of a currently active game. The API checks for a winner after each placement and returns the game ID, game board, current turn (X or O), and the game status (ongoing, X_wins, O_wins, or draw).
+
+### /get_game/game_id
+Gets all information for a game with that specific game_id. Returns the game ID, game board, current turn (X or O), and the game status (ongoing, X_wins, O_wins, or draw).
+
+### /reset_game/game_id
+Resets a game to a the starting state. Can be called regardless of the current state of the game. Returns the game ID, game board, current turn (X), and the game status (ongoing).
