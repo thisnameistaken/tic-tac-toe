@@ -1,0 +1,23 @@
+node_modules/
+.env
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+
+# Backend
+tic-tac-toe-backend/venv/
+tic-tac-toe-backend/__pycache__/
+tic-tac-toe-backend/.env
+tic-tac-toe-backend/.gitignore
+tic-tac-toe-backend/.DS_Store
+
+# Frontend
+tic-tac-toe-frontend/node_modules/
+tic-tac-toe-frontend/.next/
+tic-tac-toe-frontend/build/
+tic-tac-toe-frontend/.env
+tic-tac-toe-frontend/.pnp
+tic-tac-toe-frontend/.pnp.js
+tic-tac-toe-frontend/.DS_Store
+tic-tac-toe-frontend/.gitignore

@@ -1,0 +1,7 @@
+Flask
+flask_cors
+pytest
+python-dotenv
+psycopg2
+
+
